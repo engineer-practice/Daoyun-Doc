@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="44px" height="164px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <mask fill="white" id="clip79">
+      <path d="M 0 151  L 0 114.454545454544  L 0 111.545454545453  L 0 3  C 0 1.31999999999999  1.31999999999994 0  3 0  L 31 0  C 32.6800000000001 0  34 1.31999999999999  34 3  L 34 151  C 34 152.68  32.6800000000001 154  31 154  L 3 154  C 1.31999999999994 154  0 152.68  0 151  Z " fill-rule="evenodd" />
+    </mask>
+    <filter x="1284px" y="447px" width="44px" height="164px" filterUnits="userSpaceOnUse" id="filter80">
+      <feOffset dx="3" dy="5" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="2.5" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.349019607843137 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget81">
+      <path d="M 0 151  L 0 114.454545454544  L 0 111.545454545453  L 0 3  C 0 1.31999999999999  1.31999999999994 0  3 0  L 31 0  C 32.6800000000001 0  34 1.31999999999999  34 3  L 34 151  C 34 152.68  32.6800000000001 154  31 154  L 3 154  C 1.31999999999994 154  0 152.68  0 151  Z " fill-rule="nonzero" fill="#ffffff" stroke="none" fill-opacity="0" transform="matrix(1 0 0 1 1286 447 )" />
+      <path d="M 0 151  L 0 114.454545454544  L 0 111.545454545453  L 0 3  C 0 1.31999999999999  1.31999999999994 0  3 0  L 31 0  C 32.6800000000001 0  34 1.31999999999999  34 3  L 34 151  C 34 152.68  32.6800000000001 154  31 154  L 3 154  C 1.31999999999994 154  0 152.68  0 151  Z " stroke-width="2" stroke="#797979" fill="none" transform="matrix(1 0 0 1 1286 447 )" mask="url(#clip79)" />
+    </g>
+  </defs>
+  <g transform="matrix(1 0 0 1 -1284 -447 )">
+    <use xlink:href="#widget81" filter="url(#filter80)" />
+    <use xlink:href="#widget81" />
+  </g>
+</svg>
